@@ -1,0 +1,246 @@
+
+@import "map";
+
+
+%text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 64px;
+    color: #BDBDBD;
+}
+
+%textt {
+font-family: TT Hoves;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 64px;
+color: #333333;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 0px;
+}
+ %mintext {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 36px;
+    color: #BDBDBD;
+ } 
+
+
+
+.sectiontitle {
+    .container {
+        .row{
+            .ser {
+              @extend %text;
+            }
+            .kamp {
+                @extend %textt;
+                
+            }
+        }
+    }
+}
+
+
+
+
+
+.sectioncar {
+    .container {
+        .row {
+            .col-md-12 {
+                .atta {
+                  display: inline-block;
+                  transform: translate(-107px, -37px);
+                    .bor {
+                        margin: 0 15px;
+                    }
+                    .www{
+                     color: #BDBDBD;
+                    }
+                 }
+                .owl-carousel {
+                   .owl-nav {
+                    display: flex;
+                    align-content: flex-end;
+                     
+                    .owl-prev {
+                        width: 40px;
+                        height: 40px;
+                        background-color: red;
+                        background: #FFFFFF;
+                         border: 1px solid #F2F2F2;
+                        box-sizing: border-box;
+                         
+                     }
+
+                     .owl-next {
+                        width: 40px;
+                        height: 40px;
+                        background-color: red;
+                        background: #FFFFFF;
+                        border: 1px solid #F2F2F2;
+                        box-sizing: border-box;
+                       
+                     }
+                    } 
+              
+                    .imgs {
+                        width: 337px;
+                        height: 450px;
+                      
+                    }   
+                    
+                    
+                }
+            }
+        }
+    }
+}
+
+
+@media (min-width: 300px) and ( max-width: 700px) {
+    .sectiontitle{
+        .container {
+            .row{
+               .col-12 {
+                .ser {
+                    font-size: 36px;
+                    line-height: 36px;
+                }
+                .kamp {
+                    font-size: 36px;
+                 line-height: 36px;  
+                }
+               
+            }
+        }
+    } 
+
+
+  }
+
+  .section-map {
+      .row {
+          .col-12 {
+              .titleee {
+                  .eee {
+                      .ser {
+                          font-size: 36px;
+                      }
+                      .kamp {
+                        font-size: 36px;
+                    }
+                  }
+                  .wee {
+                      width: 150px;
+                      height: 50px;
+                  }
+              }
+          }
+      }
+  } 
+ }
+
+
+ @media (min-width: 100px) and ( max-width: 300px) {
+
+    .section-map {
+        .row {
+            .col-12 {
+                .titleee {
+                    .eee {
+                        .ser {
+                            font-size: 24px;
+                        }
+                        .kamp {
+                          font-size: 24px;
+                          line-height: 0;
+                      }
+                    }
+                    .wee {
+                        width: 150px;
+                        height: 50px;
+                    }
+                }
+            }
+        }
+    } 
+   }
+    
+
+
+
+
+ 
+
+
+
+@media (max-width: 992px) {
+
+    .sectioncar {
+        .container {
+            .row {
+                .col-md-12 {
+                    .atta {
+                      display: inline-block;
+                      transform: translate(-109px, -64px);
+                        .bor {
+                            margin: 0 15px;
+                        }
+                        .www{
+                         color: #BDBDBD;
+                        }
+                     }
+                    .owl-carousel {
+                       .owl-nav {
+                        display: flex;
+                        align-content: flex-end;
+                         
+                        .owl-prev {
+                            width: 40px;
+                            height: 40px;
+                            background: #FFFFFF;
+                             border: 1px solid #F2F2F2;
+                            box-sizing: border-box;
+                             
+                         }
+    
+                         .owl-next {
+                            width: 40px;
+                            height: 40px;
+                           
+                            background: #FFFFFF;
+                            border: 1px solid #F2F2F2;
+                            box-sizing: border-box;
+                           
+                         }
+                        } 
+                  
+                        .imgs {
+                            width: 337px;
+                            height: 450px;
+                          
+                        }   
+                        
+                        
+                    }
+                }
+            }
+        }
+    }
+
+
+}
+
+
+
+
+
+
+
