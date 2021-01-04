@@ -1,0 +1,24 @@
+nav{
+    ul{
+        margin-left: 39%;
+    }
+    .nav-item{
+        margin-left: 20px;
+        margin-right: 20px;
+        border: 1px solid transparent;
+        padding-top: 5px;
+        padding-bottom: 3px;
+        &:hover{
+            border-top: 1px solid #333333;
+            border-bottom: 1px solid #333333;
+            box-sizing: border-box;
+        }
+        .nav-link{
+            padding: 0 !important;
+            color: black;
+            &:hover{
+                color: black !important;
+            }
+        }
+    }
+}
