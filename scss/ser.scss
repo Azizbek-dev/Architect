@@ -56,7 +56,7 @@ margin: 0px 0px;
             .col-md-12 {
                 .atta {
                   display: inline-block;
-                  transform: translate(-107px, -37px);
+                  transform: translate(-131px, -37px);
                     .bor {
                         margin: 0 15px;
                     }
@@ -71,22 +71,30 @@ margin: 0px 0px;
                      
                     .owl-prev {
                         width: 40px;
-                        height: 40px;
-                        background-color: red;
-                        background: #FFFFFF;
+                        height: 40px;                
                          border: 1px solid #F2F2F2;
                         box-sizing: border-box;
-                         
+                         outline: none;                       
+                         background-image: url("../img/ong.svg");
+                         background-repeat: no-repeat;
+                         background-position: center;
                      }
+                      span {
+                     display: none;                     
+                      }            
 
                      .owl-next {
                         width: 40px;
                         height: 40px;
-                        background-color: red;
+                        
                         background: #FFFFFF;
                         border: 1px solid #F2F2F2;
                         box-sizing: border-box;
-                       
+                        margin-right: 19px;
+                        outline: none;
+                        background-image: url("../img/chap.svg");
+                        background-repeat: no-repeat;
+                        background-position: center;
                      }
                     } 
               
@@ -202,24 +210,7 @@ margin: 0px 0px;
                         display: flex;
                         align-content: flex-end;
                          
-                        .owl-prev {
-                            width: 40px;
-                            height: 40px;
-                            background: #FFFFFF;
-                             border: 1px solid #F2F2F2;
-                            box-sizing: border-box;
-                             
-                         }
-    
-                         .owl-next {
-                            width: 40px;
-                            height: 40px;
-                           
-                            background: #FFFFFF;
-                            border: 1px solid #F2F2F2;
-                            box-sizing: border-box;
-                           
-                         }
+                       
                         } 
                   
                         .imgs {
