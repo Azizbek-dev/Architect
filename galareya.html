@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="css/owl.carousel.css">
     <link rel="stylesheet" href="css/highcharts.css">
     <link rel="stylesheet" href="css/privet_bootstrap.css">
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <link rel="stylesheet" href="css/style.css">
     <title>Galareya</title>
 </head>
 
@@ -311,20 +311,16 @@
 $('.owl-carousel').owlCarousel({
     loop:true,
     margin:10,
-    responsiveClass:true,
+    nav:true,
     responsive:{
         0:{
-            items:1,
-            nav:true
+            items:1
         },
         600:{
-            items:3,
-            nav:false
+            items:1
         },
         1000:{
-            items:5,
-            nav:true,
-            loop:false
+            items:1
         }
     }
 })

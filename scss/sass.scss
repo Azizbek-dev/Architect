@@ -43,30 +43,35 @@ $mycolor: rgba(189, 189, 189, 1);
 
 
 .section-gallareya{
+    .owl-carousel{
+        .owl-stage-outer{
+            display: block;
+            width: 100%;
+        }
+    }
     .owl-dots{
         display: none;
     }
 .owl-prev{
-    outline: none;
+    width: 50px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../img/ico-shape (1).png");
     margin:2% 21%;
     span{
-    background-color: rgb(204, 201, 201);
-
-        padding: 5px 20px;
-        &:hover{
-background-color: #F9F9F9;
-        }
+display: none !important;
     }
 }
 .owl-next{
     margin: 2% -19.5%;
-    outline: none;
+    width: 50px;
+    height: 30px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url("../img/ico-shape (1).png") !important;
     span{
-        background-color: rgb(204, 201, 201);
-        padding: 5px 20px;
-        &:hover{
-background-color: #F9F9F9;
-        }
+        display: none !important;
     }
 }
     .container{
