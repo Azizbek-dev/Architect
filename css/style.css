@@ -26,8 +26,8 @@ body {
   height: 550px; }
 .section-1 .carousel .carousel-control-next {
   position: absolute !important;
-  width: 150px !important;
-  height: 40px !important;
+  width: 180px !important;
+  height: 50px !important;
   background-color: white !important;
   top: auto !important;
   bottom: 0 !important;
@@ -102,7 +102,7 @@ nav .nav-item {
   margin-left: 20px;
   margin-right: 20px;
   border: 1px solid transparent;
-  padding-top: 5px;
+  padding-top: 8px;
   padding-bottom: 3px; }
   nav .nav-item:hover {
     border-top: 1px solid #333333;
